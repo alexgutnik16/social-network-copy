@@ -1,0 +1,162 @@
+h3,
+h2 {
+    margin: 0;
+}
+
+header {
+    margin-bottom: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+header h2 {
+    color: #BB2649;
+}
+
+nav a {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #BB2649;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #BB2649;
+    color: white;
+}
+
+.userinfo {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.userinfo img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #BB2649;
+}
+
+.userinfo h3 {
+    color: black;
+}
+
+.user button {
+    font-size: 14px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #BB2649;
+    border-radius: 10px;
+}
+
+.user-logged-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-logged-in button {
+    margin: 0px 10px;
+}
+
+.user-logged-out button {
+    margin: 0px 10px;
+}
+
+.mobile-header {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo h2 {
+    font-size: 40px;
+    margin: 20px;
+    color: #BB2649;
+    text-decoration: none;
+}
+
+.mobile-header span {
+    margin: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.wrap-closebtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    margin-left: 0px;
+}
+
+.closebtn {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border: 2px solid #BB2649;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.sidenav-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidenav-elements a {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #BB2649;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+
+@media screen and (max-width: 850px) {
+    header {
+        display: none;
+    }
+    .header-logo h2 {
+        margin: 0px;
+        font-size: 30px;
+    }
+    .mobile-header {
+        display: flex;
+    }
+}

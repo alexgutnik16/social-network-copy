@@ -1,0 +1,18 @@
+.search-input {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input input {
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #BB2649;
+    border-radius: 10px;
+    outline: none;
+    background-size: 30px;
+    background-position: right;
+    background-image: url('https://www.pngall.com/wp-content/uploads/8/Vector-Search.png');
+    background-repeat: no-repeat;
+}

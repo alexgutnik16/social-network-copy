@@ -1,0 +1,146 @@
+.video {
+    background-color: rgb(242, 241, 241);
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.video-main video {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    width: 750px;
+    height: 422px;
+}
+
+.video-data {
+    width: 100%;
+    margin: 50px;
+}
+
+.video-user {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.video-user-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.video-user h2 {
+    font-weight: 600;
+}
+
+.video-user img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: #BB2649;
+}
+
+.video-user button {
+    margin: 0px 15px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #BB2649;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.video-user button:hover {
+    background-color: #BB2649;
+    color: white;
+}
+
+.video-user button:active {
+    background-color: #BB2649;
+    color: white;
+}
+
+.video-info {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #BB2649;
+}
+
+.video-info a {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+.video-info h3 {
+    font-weight: 700;
+    text-align: left;
+}
+
+.like-button {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.like-button img {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .video-main video {
+        width: 600px;
+        height: 338px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .video-main video {
+        width: 500px;
+        height: 282px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .video-main video {
+        width: 400px;
+        height: 226px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .video {
+        width: 95%;
+    }
+    .video-main video {
+        width: 315px;
+        height: 178px;
+    }
+    .video-info {
+        padding: 15px;
+        width: 70%;
+    }
+    .video-info p {
+        margin: 10px 0px;
+    }
+    .video-data {
+        margin: 0px;
+        margin: 20px 0px;
+    }
+}

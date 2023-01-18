@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Chat</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <h1>Test template</h1>
+    <h1>Direct message to user</h1>
+    {% for subscribtion in sub_to %}
+    <a href="{% url 'create_dm_chat' subscribtion.subscribed_to.nickname %}">{{ subscribtion.subscribed_to.nickname }}</a> {% endfor %}
+    <h1>My chats</h1>
+    {% for chat in chats %}
+    <h3>{{ chat.name }}</h3>
+    <a href="{% url 'chat' chat.name %}">Go to chat</a> {% endfor %}
+    <h1>Join new chats</h1>
+    {% for chat in new_chats %}
+    <h3>{{ chat.name }}</h3>
+    <a href="{% url 'join_chat' chat.name %}">Join chat</a> {% endfor %}
+</body>
+
+</html>

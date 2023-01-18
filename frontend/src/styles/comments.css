@@ -1,0 +1,21 @@
+.comments {
+    width: 80%;
+    margin: auto;
+}
+
+.comments form {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.comments input {
+    margin: 0px;
+    margin-top: 50px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #BB2649;
+    border-radius: 10px;
+    font-size: 14px;
+}

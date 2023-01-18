@@ -1,0 +1,69 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-main h3 {
+    margin: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.profile-main h2 {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+.profile-add {
+    margin: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    border: 7px solid #BB2649;
+}
+
+.profile-add button {
+    margin: 5px;
+}
+
+.profile-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-button button {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subscribtions {
+    padding: 20px;
+    border: 3px solid #BB2649;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.subscribtions h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subscribtion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribtion img {
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #BB2649;
+}
